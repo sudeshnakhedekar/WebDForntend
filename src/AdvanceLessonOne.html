@@ -7,32 +7,26 @@
 <body>
 <a href="BasicLessonThree.html" >Original Page is Here!!!!</a>
 
-<form>
-    First Name: <input type="text"><br>
-    Last Name: <input type="text"><br>
-    Email: <input type="email" required ><br>
-    Password: <input type="password" min="8"><br>
-    DOB: <input type="date"><br>
+<form method="GET" >
+    First Name: <input type="text" name="firstname"><br>
+    Last Name: <input type="text" name="lastname"><br>
+    Email: <input type="email" name="email" required ><br>
+    Password: <input type="password" name="password" min="8"><br>
+    DOB: <input type="date" name="DOB"><br>
     Gender:<br>
-    <input type="radio" name="gender">Male<br>
-    <input type="radio" name="gender">Female<br>
-    <input type="radio" name="gender">Other<br>
+    <input type="radio" name="gender" value="Male">Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Other">Other<br>
     Pet:<br>
-    <input type="checkbox">Cat<br>
-    <input type="checkbox">Dog <br>
-    Hobbies: <input type="text"><br>
-    Vehicle:<input type="radio" name="vehicle" required>Cars
-             <input type="radio" name="vehicle" required>Bikes<br>
+    <input type="checkbox" name="Cat">Cat<br>
+    <input type="checkbox" name="Dog">Dog <br>
+    Hobbies: <input type="text" name="Hobbie"><br>
 
-    Car:<br>
-    <select >
-        <option value="Volvo">Volvo</option>
-        <option value="Audi">Audi</option>
-    </select><br>
-    Bike:<br>
-    <select >
-        <option value="Royal Enfield ">Royal Enfield</option><br>
-        <option value="Bajaj Pulsar">Bajaj Pulsar</option><br>
+
+    Cars:<br>
+    <select name="cars" >
+        <option value="Volvo" name="Volvo">Volvo</option>
+        <option value="Audi" name="Audi">Audi</option>
     </select><br>
            <input type="submit" value="Register">
            <input type="reset">
@@ -42,3 +36,18 @@
 
 </body>
 </html>
+
+
+o/p:
+?firstname=Fake
+&lastname=Man
+&email=fake%40gmail.com
+&password=1234
+&DOB=2021-04-18
+&gender=Male
+&Cat=on
+&Hobbie=Singing&
+cars=Volvo
+
+
+
