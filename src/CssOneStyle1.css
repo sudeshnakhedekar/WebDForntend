@@ -1,18 +1,33 @@
 h2{
     color: blueviolet;
 }
-
+/* 
 .boxmodel{
     border: 5px solid purple;
     display: inline-block;
-   /* padding add space inside the border. */
-    padding: 20px 5px 20px 5px; 
-    /* margin allows you to add space outside of the border.  */
-    margin: 0px 10px 0px 10px ;
-    /*  margin: 0px 10px 0px; we can write it in this way also the
+   
+    //*Comment:- padding add space inside the border. */
+   
+   /* padding: 20px 5px 20px 5px;  */
+   
+   /*Comment:- margin allows you to add space outside of the border.  */
+    
+    /* margin: 0px 10px 0px 10px ; */
+    
+    /* Comment:- margin: 0px 10px 0px; we can write it in this way also the
      fisrt one represent top and bottom and the second one right and left. */
     
-     width: 32px;
-     height: 44px;
+     /* width: 32px;
+     height: 44px; */
 
+/* }  */
+
+
+p{
+    font-size: 20px;
+}
+
+span{
+ 
+    font-size: 2rem;
 }
