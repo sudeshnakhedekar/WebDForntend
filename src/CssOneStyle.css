@@ -3,13 +3,17 @@
     Property: value;
     
 } */
+
+*  {
+    text-align: right;
+}
 body{
 background-image: url(hello.jpg);
 background-size: cover;
 
 }
 
-h2 {
+h2+p:hover {
     color: #590707 ;
 
     text-align: center;
@@ -26,5 +30,23 @@ p{
 
 li{
     list-style: square;
-    display: flex; 
+    display: block; 
+}
+
+.webtext{
+    border: 2px dashed orangered;
+ 
+}
+
+.active{
+   color: purple;
+}
+
+#div1{
+    background: rgb(255,255,0, 0.2);
+}
+
+#div2{
+
+    background: rgb(255,0,0, 0.2);
 }
