@@ -3,10 +3,18 @@
     Property: value;
     
 } */
+body{
+background-image: url(hello.jpg);
+background-size: cover;
 
+}
 
 h2 {
-    color: red;
+    color: #590707 ;
+
+    text-align: center;
+    border: 5px solid rgb(163, 61, 61, 0.5 ) ;
+    cursor: pointer;
 }
 
 p{
@@ -14,4 +22,9 @@ p{
 }
 p{
     color: green ;
+}
+
+li{
+    list-style: square;
+    display: flex; 
 }
