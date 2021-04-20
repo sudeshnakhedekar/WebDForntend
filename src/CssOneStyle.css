@@ -13,7 +13,7 @@ background-size: cover;
 
 }
 
-h2 +p {
+p {
     color: #590707 ;
     text-align: center;
     border: 5px solid rgb(163, 61, 61, 0.5 ) ;
@@ -22,15 +22,22 @@ h2 +p {
 
 
 p{
-    line-height: 4
-    
-    0px ;
+    line-height: 50px ;
     font-style: italic;
     font-weight: bold;
     font-size: 90%;
     font-family: 'Barlow', sans-serif;  
     text-decoration: underline;
     text-transform: lowercase ;
+}
+img{
+    float: right;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    color: darkgoldenrod;
 }
 
 li{
