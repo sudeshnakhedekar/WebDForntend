@@ -10,6 +10,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     /* align-items: center; */
+  
    }
 
    h1{
@@ -32,6 +33,7 @@ img{
     height: 300px;
     margin: 20px;
     transition: all 1s;
+    box-shadow: 10px 10px 5px #ccc;
     
    
 }
