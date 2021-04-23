@@ -1,7 +1,14 @@
 .btn-success{
     background-color: red;
+    margin: 9px;
 }
 
 .btn-success:hover{
     background-color: orange;
+    
 } 
+
+.jumbotron{
+    background-color: rgba(245, 237, 237, 0.849);
+    margin: 9px;
+}
