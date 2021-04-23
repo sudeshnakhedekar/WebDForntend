@@ -1,0 +1,41 @@
+body{
+   
+   background-image: url(startup.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 15px;
+}
+.container1{
+    background-color: white;
+    width: 300px;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* position the div in center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container2{
+
+    width: 200px;
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    position: absolute;
+    top: 66%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn-warning{
+      background-color: rgb(248, 212, 144);
+      
+  }
