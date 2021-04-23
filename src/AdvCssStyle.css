@@ -38,7 +38,7 @@ img{
    
 }
 
-img:hover{
+img:hover{ 
     transform: scale(1.1);
     
 }
