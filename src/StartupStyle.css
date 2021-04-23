@@ -31,7 +31,7 @@ body{
     align-items: baseline;
     position: absolute;
     top: 66%;
-    left: 54%;
+    left: 53%;
     transform: translate(-50%, -50%);
   }
 
@@ -39,3 +39,8 @@ body{
       background-color: rgb(248, 212, 144);
       
   }
+
+.btn-warning:hover{
+    background-color: rgb(218, 250, 239);
+    
+}
