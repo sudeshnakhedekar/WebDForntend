@@ -4,7 +4,9 @@ html {
   height: 100%;
  
 }
-
+.strong{
+color: white;
+}
 body {
   font-family: 'Montserrat', sans-serif;
  
@@ -24,7 +26,7 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("startup1");
+  background-image: url("startup2");
   background-size: cover;
   height: 100%;
 }
