@@ -18,7 +18,7 @@
   
   .sidebar {
     position: absolute;
-    background-color: rgb(216, 216, 216);
+    background-color: rgba(84, 182, 247, 0.959);
     height: 100vh;
     width: 300px;
     box-shadow: rgba(255, 253, 253, 0.856) 0px 25px 50px -12px;
@@ -110,6 +110,7 @@ color: rgb(122, 79, 206);
   }
 
   h2:hover{
-   color: gray;
+   color: rgba(71, 65, 131, 0.329);
+  
  
   }
